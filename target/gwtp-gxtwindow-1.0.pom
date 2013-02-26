@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rhemsolutions</groupId>
+  <artifactId>gwtp-gxtwindow</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+  
+  <name>GXT popup window</name>
+  <description>GXT window for GWTP popup presenters</description>
+  <url>https://github.com/poseidonjm/gwtp-gxtwindow/</url>
+  
+  <developers>
+    <developer>
+      <email>juanrojas@rhemsolutions.com</email>
+      <name>juan m. rojas ronquillo</name>
+      <organization>Rhem Solutions</organization>
+      <organizationUrl>rhemsolutions.com</organizationUrl>
+    </developer>
+  </developers>
+  
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://vivagwt.blogspot.com/2012/07/gwt-platform-and-gxt3.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  <scm>
+    <url>https://github.com/poseidonjm/gwtp-gxtwindow/</url>
+  </scm>
+</project>
