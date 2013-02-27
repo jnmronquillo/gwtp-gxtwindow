@@ -8,7 +8,29 @@
   <packaging>jar</packaging>
 
   <name>gwtp-gxtwindow</name>
-  <url>http://maven.apache.org</url>
+  <description>GXT window for GWTP popup presenters</description>
+  <url>https://github.com/poseidonjm/gwtp-gxtwindow</url>
+  
+  <developers>
+    <developer>
+      <email>juanrojas@rhemsolutions.com</email>
+      <name>juan m. rojas ronquillo</name>
+      <organization>Rhem Solutions</organization>
+      <organizationUrl>rhemsolutions.com</organizationUrl>
+    </developer>
+  </developers>
+  
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://github.com/poseidonjm/gwtp-gxtwindow</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  <scm>
+    <url>https://github.com/poseidonjm/gwtp-gxtwindow</url>
+  </scm>
 
   <properties>
     <!-- Convenience property to set the GWT version -->
@@ -125,7 +147,7 @@
       <resource>
          <directory>src/main/java</directory>
          <includes>
-            <include>client/**</include>
+            <include>com/rhemsolutions/client/**</include>
          </includes>
       </resource>
       <resource>
